@@ -1,8 +1,8 @@
 # D3 Event Handling
 
-This repository is your starting point for hw-05. Assignment details and instructions are below. 
+This repository is your starting point for hw-05. Assignment details and instructions are below.
 
-Link to your GitHub pages website: `[insert your *clickable* hyperlink here]`
+Link to your GitHub pages website: `https://github.com/DS4200-Fall21-Sec02/hw-05-d3-event-handling-corrected-new-team`
 
 # Aim of the assignment
 
@@ -21,14 +21,14 @@ You should do all your edits locally after cloning this repository. Commit major
 
 1. In order to read data from csv files, you will need to use a python simple server. To do that follow these steps:
    - `CD` or open a terminal / command prompt window into the folder you cloned above.
-   - Start a python simple server from that folder with one of these commands (depending on how you set python up on your machine): `python -m http.server`, `python3 -m http.server`, or `py -m http.server`. 
+   - Start a python simple server from that folder with one of these commands (depending on how you set python up on your machine): `python -m http.server`, `python3 -m http.server`, or `py -m http.server`.
    - If you are using python 2 you will need to use `python -m SimpleHTTPServer` instead, but please switch to python 3 as [Python 2 was sunset on 2020-01-01](https://www.python.org/doc/sunset-python-2/).
    - After running the command, wait for the output: `Serving HTTP on 0.0.0.0 port 8000 (http://0.0.0.0:8000/)`.
-   - Open your web browser (Firefox or Chrome) and navigate to the URL: http://localhost:8000. This is where you will see your code rendered. 
+   - Open your web browser (Firefox or Chrome) and navigate to the URL: http://localhost:8000. This is where you will see your code rendered.
 
 ## Update hyperlinks
 
-1. Edit near the top of this `README.md` file to include a clickable hyperlink to the GitHub pages website for your repo. Replace `` `[insert your *clickable* hyperlink here]` `` with your clickable URL. 
+1. Edit near the top of this `README.md` file to include a clickable hyperlink to the GitHub pages website for your repo. Replace `` `[insert your *clickable* hyperlink here]` `` with your clickable URL.
 
 1. In `index.html` update the GitHub repo URL with the URL of your repository. It is in the span with `id='forkongithub'`.
 
@@ -53,7 +53,7 @@ Here is an overview of the files and folders provided in your repo.
 
 * `img` contains a descriptive image for the `README.md`.
 
-* `js` will contain all JavaScript files you write. For example, `main.js`, where you will fill in your code. 
+* `js` will contain all JavaScript files you write. For example, `main.js`, where you will fill in your code.
 
 * `lib` will contain any JavaScript library you use. It currently includes D3. To ensure long-term survivability, **use the included D3 here rather than linking to [d3js.org](https://d3js.org) or some other CDN.** Likewise, put your other libraries here rather than loading them from elsewhere.
 
@@ -61,11 +61,11 @@ Here is an overview of the files and folders provided in your repo.
 
 These are a few places to start learning about event handling. You are not limited to these resources, please do additional research on your own if nescessary.
 
-* What is a JavaScript Event?: [https://www.w3schools.com/js/js_events.asp](https://www.w3schools.com/js/js_events.asp) 
+* What is a JavaScript Event?: [https://www.w3schools.com/js/js_events.asp](https://www.w3schools.com/js/js_events.asp)
 
 * Defining DOM: [https://www.w3schools.com/js/js_htmldom.asp](https://www.w3schools.com/js/js_htmldom.asp)
 
-* What are HTML DOM Events?: [https://www.w3schools.com/js/js_htmldom_events.asp](https://www.w3schools.com/js/js_htmldom_events.asp) 
+* What are HTML DOM Events?: [https://www.w3schools.com/js/js_htmldom_events.asp](https://www.w3schools.com/js/js_htmldom_events.asp)
 
 * What is an Event Listenter?: [https://www.w3schools.com/js/js_htmldom_eventlistener.asp](https://www.w3schools.com/js/js_htmldom_eventlistener.asp)
 
@@ -77,20 +77,20 @@ These are a few places to start learning about event handling. You are not limit
 
 * D3 Drag Example: [https://www.d3-graph-gallery.com/graph/circularpacking_drag.html](https://www.d3-graph-gallery.com/graph/circularpacking_drag.html)
 
-# Instructions 
-The starter code you received creates a yellow square and blue circle. Using that as a starting point, please implement the following custom events. 
+# Instructions
+The starter code you received creates a yellow square and blue circle. Using that as a starting point, please implement the following custom events.
 
 ## Click Event
 Add functionality such that when the square is clicked, the circle changes color. You many set this up such that your circle alternates between 2 colors (Ex. 1st click on square --> circle changes to green, 2nd click on square --> circle changes to blue, 3rd click on square --> circle changes to green, etc.), or such that the circle is set to a new random color each time the suqare is clicked (Ex. 1st click on square --> circle changes to green, 2nd click on square --> circle changes to pink, 3rd click on square --> circle changes to red, etc.).    
 
 ## Double-Click Event
-Add functionality such that when the circle is double clicked, the square and circle change color. Similar to above, you may set this up such that the circle and square alternated between two colors with every double click, or such that each double click changes both to new random colors. 
+Add functionality such that when the circle is double clicked, the square and circle change color. Similar to above, you may set this up such that the circle and square alternated between two colors with every double click, or such that each double click changes both to new random colors.
 
 ## Hover Event
 Add functionality such that when the mouse hovers over either shape a thick border is added. When the mouse leaves the shape the thick border should disappear.    
 
-## Drag 
-Make both shapes draggable to any spot within the svg defined on line 14 of the starter code (if the user drags a shape outside of the bounding svg, it's okay for it to disappear). If one shape is dragged and dropped to the same area as the other it should appear on top of the shape that was not dragged. (Ex. If I drag the circle to the square and drop it, the circle should be layered on top of the square. If I drag the square to the circle and drop it, the square should be layered on top of the circle.) 
+## Drag
+Make both shapes draggable to any spot within the svg defined on line 14 of the starter code (if the user drags a shape outside of the bounding svg, it's okay for it to disappear). If one shape is dragged and dropped to the same area as the other it should appear on top of the shape that was not dragged. (Ex. If I drag the circle to the square and drop it, the circle should be layered on top of the square. If I drag the square to the circle and drop it, the square should be layered on top of the circle.)
 
 # Academic integrity
 You are welcome to use D3 tutorials or resources as a starting point for your code.
